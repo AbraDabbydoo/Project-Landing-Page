@@ -1,0 +1,154 @@
+.main-navigation {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    }
+.site-logo{
+    padding-left: 300px;
+}
+
+a {
+    font-size: 16px;
+    padding: 0px 0px 0px 20px ;
+    margin-left: 30px;
+    /* this removes the line under the links */
+    text-decoration: none;
+    color:#E5E7EB;
+    font-family:'Roboto', sans-serif;
+  }
+
+ul {
+    display: flex;
+    align-content: center;
+    padding-top: 20px;
+    padding-right: 300px;
+    gap: 40px;
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    color:#E5E7EB;
+  }
+  
+.row{
+        background-color: #1F2937;
+        display: flex;
+        padding-bottom: 60px;
+    }
+.column.one{
+    flex: 45%;
+}
+.column.two{
+    flex: 55%;
+}
+
+#uno {
+font-size: 48px;
+font-weight: bolder;
+color:#E5E7EB;
+font-family:'Roboto', sans-serif;
+}
+#dos{
+font-size: 18px;
+color:#E5E7EB;
+}
+.action {
+    font-size: 12px;
+    color:#F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: #3882F6;
+    margin-top: 10px;
+    padding: 4px 12px 4px 12px;
+}
+.one{
+    padding-left: 350px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 40px;
+    }
+
+.boxes{
+    width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3882F6;
+}
+
+.text{
+    text-align: center;
+}
+.gray{
+    background-color: #E5E7Eb;
+    padding: 125px 0px 150px 0px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    font-family:'Roboto', sans-serif;
+    color: #1F2937;
+    text-align: center;
+    }
+.author{
+    font-weight: bolder;
+    text-align: right;
+    margin-right: 300px;
+}
+.bottom{
+    padding: 100px 200px 100px 200px;
+    
+}
+.inside{
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+
+/*
+.rectangle {
+    height: 150px;
+    width: 700px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+}*/
+
+.sign-up{
+        color: #E5E7EB;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #E5E7EB;
+   
+}
+.call{
+   display: flex;
+    justify-content: ;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.copyright{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
