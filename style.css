@@ -1,9 +1,15 @@
+.header {
+    margin: 0;
+  
+}
+
 .main-navigation {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
     }
+
 .site-logo{
     padding-left: 300px;
 }
@@ -88,6 +94,10 @@ color:#E5E7EB;
   border-width: 2px;
   border-color: #3882F6;
 }
+.bottom{
+    padding: 100px 200px 100px 200px;
+    
+}
 
 .text{
     text-align: center;
@@ -110,16 +120,35 @@ color:#E5E7EB;
     text-align: right;
     margin-right: 300px;
 }
-.bottom{
-    padding: 100px 200px 100px 200px;
-    
-}
-.inside{
+ /* How can I align the space better so the left column is closer to the right?*/
+.inside {
+    padding: 25px 25px 25px 25px ;
     background-color: #3882F6;
     border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+   /* How can I align the space better so the left column is closer to the right?*/
+
+.inside > * {
+    padding: 1rem;;
 }
 
+.quick{
+    color: #E5E7EB;
+}
 
+.sign-up{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: #E5E7EB;
+    padding: 3px 20px 3px 20px;
+    margin-top: 30px;
+}
+.left{
+    margin-left: 100px;
+}
 /*
 .rectangle {
     height: 150px;
@@ -140,7 +169,6 @@ color:#E5E7EB;
 }
 .call{
    display: flex;
-    justify-content: ;
     color: #E5E7EB;
     font-weight: bold;
     font-size: 18px;
